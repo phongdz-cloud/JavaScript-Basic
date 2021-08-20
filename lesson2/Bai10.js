@@ -3,9 +3,12 @@ Nhập vào giờ, phút, giây. Cho biết một giây sau đó là mấy giờ
 */
 function main() {
   var h, m, s, flag;
-  h = parseInt(document.getElementById("numberA").value);
-  m = parseInt(document.getElementById("numberB").value);
-  s = parseInt(document.getElementById("numberC").value);
+  // h = parseInt(document.getElementById("numberA").value);
+  // m = parseInt(document.getElementById("numberB").value);
+  // s = parseInt(document.getElementById("numberC").value);
+  h = prompt("Nhập vào giá trị h:");
+  m = prompt("Nhập vào giá trị h:");
+  s = prompt("Nhập vào giá trị h:");
   flag = checkTime(h, m, s);
   solution(h, m, s, flag);
 }
